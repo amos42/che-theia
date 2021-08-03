@@ -28,7 +28,8 @@ ENV HOME=/home/theia-dev \
     GIT_EXEC_PATH=/usr/libexec/git-core \
     THEIA_ELECTRON_SKIP_REPLACE_FFMPEG=true \
     ELECTRON_SKIP_BINARY_DOWNLOAD=1 \
-    YARN_FLAGS=""
+    YARN_FLAGS=""\
+    PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
 
 # setup extra stuff
 #{INCLUDE:docker/${BUILD_IMAGE_TARGET}/post-env.dockerfile}
