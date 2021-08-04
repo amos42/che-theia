@@ -19,10 +19,11 @@ set -u
 # THEIA_DOCKER_IMAGE_VERSION="7.32.2"
 IMAGE_TAG="new_7.32.2"
 THEIA_GITHUB_REPO="amos42/theia"
-THEIA_VERSION="7.32.2"
+THEIA_VERSION="1.13.0"
 THEIA_BRANCH="new_7.32.2"
 THEIA_COMMIT_SHA=
 THEIA_GIT_REFS="refs\\/heads\\/new_7.32.2"
+THEIA_DOCKER_IMAGE_VERSION="7.32.2"
 
 prepare_yarn_root_args() {
     IFS=',' read -r -a YARN_ARGS_ARRAY <<< "$@"
